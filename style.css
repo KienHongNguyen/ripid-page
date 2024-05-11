@@ -70,38 +70,87 @@ body {
     height: 20vh;
 
 }
+/* cardSection Head Text */
 .cardSection h2 {
-    font-size: 1rem;
+    font-size: 0.6rem;
+    color: white;
+    margin-left: 2vw;
+    font-weight: bolder;
 }
+/* cardSection Avatar Text */
 .cardSection h3 {
     font-size: 0.8rem;
+    text-align: center;
+    border-radius: 1rem;
+    width: 12vw;
+    color: white;
+    margin-left: 2vw;
+    margin-top: -0.6vh;
+    border: 0.08rem solid white;
 }
 .cardSection p {
-    font-size: 0.5rem;
+    font-size: 0.4rem;
+    margin-left: 2vw;
+    margin-top: -1vh;
+    font-weight: 100;
+    color: white;
+
 }
 
-#card1, #card3 {
+
+#card1 {
     display: flex;
     flex-direction: column;
     
-    width: 22vw;
+    width: 25vw;
     height: 15vh;
     border-radius: 1.5rem;
-    
-
-    border: solid red;
+    background-color: #84ed5e;
+}
+#card1 img{
+    width: 15vw;
+    margin-left: 5vw;
+    margin-top: 1vh;
 }
 
 #card2 {
     display: flex;
     flex-direction: column;
     
-    width: 25vw;
+    width: 30vw;
     height: 20vh;
     border-radius: 1.5rem;
+    background-color: #f2665f;
+}
+#card2 img{
+    width: 24vw;
+    margin-left: 3vw;
+    margin-top: 1.5vh;
+}
 
+#card2 h2 {
+    margin-left: 3vw;
+}
+#card2 h3 {
+    margin-left: 3vw;
+}
+#card2 p {
+    margin-left: 3vw;
+}
 
-    border: solid purple;
+#card3 {
+    display: flex;
+    flex-direction: column;
+    
+    width: 25vw;
+    height: 15vh;
+    border-radius: 1.5rem;
+    background-color: #ffc457;
+}
+#card3 img{
+    width: 15vw;
+    margin-left: 5vw;
+    margin-top: 1vh;
 }
 
 
